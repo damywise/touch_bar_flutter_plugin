@@ -24,7 +24,9 @@ dependencies:
   # TODO(vital_edu): Revisit this (either update this part in the  design or the pub tool).
   # https://github.com/flutter/flutter/issues/46264
   touch_bar_macos:
-    path: ../touch_bar_macos
+    git:
+      url: https://github.com/damywise/touch_bar_flutter_plugin.git
+      path: touch_bar_macos
 dev_dependencies:
   flutter_test:
     sdk: flutter
